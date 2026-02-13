@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|c:\\users\\student\\source\\repos\\2024-08e web app\\2024-08e web app\\controllers\\voucharcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|solutionrelative:2024-08e web app\\controllers\\voucharcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|c:\\users\\student\\source\\repos\\2024-08e web app\\2024-08e web app\\views\\vouchar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|solutionrelative:2024-08e web app\\views\\vouchar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|c:\\users\\student\\source\\repos\\2024-08e web app\\2024-08e web app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B39F70D-E21E-4089-854C-CEED65D39606}|2024-08E Web App\\2024-08E Web App.csproj|solutionrelative:2024-08e web app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Views\\Vouchar\\create.cshtml",
+              "RelativeDocumentMoniker": "2024-08E Web App\\Views\\Vouchar\\create.cshtml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Views\\Vouchar\\create.cshtml",
+              "RelativeToolTip": "2024-08E Web App\\Views\\Vouchar\\create.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-13T10:47:20.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Program.cs",
+              "RelativeDocumentMoniker": "2024-08E Web App\\Program.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Program.cs",
+              "RelativeToolTip": "2024-08E Web App\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:57:56.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VoucharController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Controllers\\VoucharController.cs",
+              "RelativeDocumentMoniker": "2024-08E Web App\\Controllers\\VoucharController.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\2024-08E Web App\\2024-08E Web App\\Controllers\\VoucharController.cs",
+              "RelativeToolTip": "2024-08E Web App\\Controllers\\VoucharController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA9wBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:31:37.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model _2024_08E_Web_App.Models.Vouchar 
+
+@if (ViewBag.Message != null)
+{
+    <script>
+        alert("@ViewBag.Message")
+    </script>
+}
+
+    <div class="container mt-4">
+            
+        <!-- Fee Form -->
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h4>Fee Management System</h4>
+            </div>
+
+            <div class="card-body">
+                <form asp-action="create" method="post">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <label>Receipt No</label>
+                        <input type="text" asp-for="ReceipNo" class="form-control"  required>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Date</label>
+                            <input type="date" asp-for="Date" class="form-control">
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Enrollment No</label>
+                        <input type="text" asp-for="EnrollmentNo" class="form-control" required>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Student Name</label>
+                        <input type="text" asp-for="StudentName" class="form-control" required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label>Address</label>
+                        <input type="text" asp-for="Address" class="form-control" required>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Payment Method</label>
+                            <select class="form-select" asp-for="PaymentMethod">
+                                <option>Cash</option>
+                                <option>Online</option>
+                                <option>Cheque</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Payment Reference</label>
+                        <input type="text" asp-for="ReferenceNo" class="form-control" required>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Cash Amount</label>
+                        <input type="number" asp-for="CashAmount" class="form-control" value="0" required>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label>Online Amount</label>
+                        <input type="number" asp-for="OnlineAmount" class="form-control" value="0" required>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <button class="btn btn-success">
+                            <i class="submit"></i> Save
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+         @if (ViewBag.Showpreview != null)
+         {
+        var Data = ViewBag.ShowData as Vouchar;
+        <!-- Records Table -->
+        <div class="card mt-4 shadow">
+            <div class="card-header bg-dark text-white">
+                Fee Records
+            </div>
+
+            <div class="card-body table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th>Voucher No</th>
+                            <th>Student Name</th>
+                            <th>Payment Method</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>@Data.ReceipNo</td>
+                            <td>@Data.StudentName</td>
+                            <td>@Data.PaymentMethod</td>
+                            <td>@Data.CashAmount</td>
+                            <td>@Data.Date</td>
+                            <td><span class="badge bg-success">Paid</span></td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-warning m-2" title="Edit">
+                                        <i class="bi bi-pencil-square"></i>Edit
+                                    </button>
+                                    <button class="btn btn-sm btn-primary m-2" title="Print">
+                                        <i class="bi bi-printer"></i>Print
+                                    </button>
+                                    <button class="btn btn-sm btn-danger m-2" title="Delete">
+                                        <i class="bi bi-trash"></i>Delete
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        
+         }
+    </div>
+
